@@ -1,3 +1,9 @@
+![AWS](https://img.shields.io/badge/AWS-Lambda-orange?logo=amazon-aws)
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-purple?logo=terraform)
+![Bedrock](https://img.shields.io/badge/Amazon-Bedrock-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # AWS S3 AI Image Tagger
 
 Automatically generate AI-powered captions and tags for images uploaded to Amazon S3 using Amazon Bedrock's Claude multimodal model.
