@@ -1,0 +1,64 @@
+<svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="300" y="30" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Image Processing Flow</text>
+
+  <!-- Step 1 -->
+  <rect x="200" y="60" width="200" height="50" fill="none" stroke="black" stroke-width="2" rx="5"/>
+  <text x="300" y="90" font-family="Arial" font-size="13" text-anchor="middle">1. Upload image to S3</text>
+
+  <!-- Arrow -->
+  <line x1="300" y1="110" x2="300" y2="140" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2 -->
+  <rect x="200" y="140" width="200" height="50" fill="none" stroke="black" stroke-width="2" rx="5"/>
+  <text x="300" y="170" font-family="Arial" font-size="13" text-anchor="middle">2. S3 event triggers Lambda</text>
+
+  <!-- Arrow -->
+  <line x1="300" y1="190" x2="300" y2="220" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3 -->
+  <rect x="200" y="220" width="200" height="50" fill="none" stroke="black" stroke-width="2" rx="5"/>
+  <text x="300" y="250" font-family="Arial" font-size="13" text-anchor="middle">3. Retrieve image from S3</text>
+
+  <!-- Arrow -->
+  <line x1="300" y1="270" x2="300" y2="300" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 4 -->
+  <rect x="200" y="300" width="200" height="50" fill="none" stroke="black" stroke-width="2" rx="5"/>
+  <text x="300" y="330" font-family="Arial" font-size="13" text-anchor="middle">4. Encode to base64</text>
+
+  <!-- Arrow -->
+  <line x1="300" y1="350" x2="300" y2="380" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 5 -->
+  <rect x="200" y="380" width="200" height="50" fill="none" stroke="black" stroke-width="2" rx="5"/>
+  <text x="300" y="410" font-family="Arial" font-size="13" text-anchor="middle">5. Send to Bedrock Claude</text>
+
+  <!-- Arrow -->
+  <line x1="300" y1="430" x2="300" y2="460" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 6 -->
+  <rect x="200" y="460" width="200" height="50" fill="none" stroke="black" stroke-width="2" rx="5"/>
+  <text x="300" y="490" font-family="Arial" font-size="13" text-anchor="middle">6. AI generates tags</text>
+
+  <!-- Arrow -->
+  <line x1="300" y1="510" x2="300" y2="540" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 7 -->
+  <rect x="200" y="540" width="200" height="50" fill="none" stroke="black" stroke-width="2" rx="5"/>
+  <text x="300" y="570" font-family="Arial" font-size="13" text-anchor="middle">7. Write metadata JSON</text>
+
+  <!-- Arrow -->
+  <line x1="300" y1="590" x2="300" y2="620" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 8 -->
+  <rect x="200" y="620" width="200" height="50" fill="none" stroke="black" stroke-width="2" rx="5"/>
+  <text x="300" y="650" font-family="Arial" font-size="13" text-anchor="middle">8. Apply S3 object tags</text>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="black"/>
+    </marker>
+  </defs>
+</svg>
