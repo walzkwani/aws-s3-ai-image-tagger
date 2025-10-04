@@ -14,6 +14,14 @@ This serverless application monitors an S3 bucket for new images, analyzes them 
 
 ## Architecture
 
+<img src="docs/images/aws_svg_diagram.svg" alt="Architecture Diagram" width="800"/>
+
+## Process Flow
+
+<img src="docs/images/aws_flow_diagram.svg" alt="Process Flow" width="600"/>
+
+## Architecture
+
 ```
 ┌─────────────┐
 │   Upload    │
