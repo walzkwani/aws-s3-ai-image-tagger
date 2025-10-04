@@ -1,4 +1,7 @@
 <svg viewBox="0 0 600 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect width="600" height="700" fill="white"/>
+  
   <!-- Title -->
   <text x="300" y="30" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Image Processing Flow</text>
 
